@@ -13,7 +13,7 @@ body {
 
 header,
 footer {
-  background-color: rgb(64, 77, 60);
+  background-color: #404d3c;
   display: flex;
   flex-flow: column;
   align-items: center;

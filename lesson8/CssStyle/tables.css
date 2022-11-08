@@ -1,0 +1,43 @@
+table {
+	border-collapse: collapse;
+	border: 2px solid rgb(200, 200, 200);
+	font-size: 2rem;
+	margin: 10px auto;
+	box-shadow: 0 0 20px;
+}
+
+caption {
+	padding: 10px;
+	caption-side: bottom;
+	color: var(--back);
+	font-size: 1rem;
+}
+
+tr:first-child th,
+.highlight {
+	background-color: #333;
+	color: whitesmoke;
+}
+
+.highlight {
+	background-color: rgb(35, 55, 49);
+}
+
+td,
+th {
+	border: 1px solid rgb(190, 190, 190);
+	padding: 10px 20px;
+}
+
+th {
+	background-color: #999;
+}
+
+td {
+	text-align: center;
+}
+
+tbody tr:nth-child(even) {
+	background-color: #444;
+	color: white;
+}

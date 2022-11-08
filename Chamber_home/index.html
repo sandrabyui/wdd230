@@ -30,6 +30,7 @@
       rel="stylesheet"
     />
     <link rel="shortcut icon" href="favicon.ico" />
+    <script defer src="js/windchil.js"></script>
   </head>
   <body>
     <!-- TOP ANNOUNCEMENT BANNER HERE -->
@@ -79,6 +80,14 @@
     <!-- CONTENT HERE -->
 
     <main>
+      <picture class="heroSRC">
+        <source srcset="images/heroSrc200.webp" media = "(max-width: 200px)">
+        <source srcset="images/heroSrc500.webp" media = "(max-width: 500px)">
+        <source srcset="images/heroSrc800.webp" media = "(max-width: 800px)" >
+        <img src="images/heroSrc.webp" alt="heroSrcimage">
+        </picture>
+
+
       <div class="content-container">
         <h1>Home</h1>
         <div class="outside-div">
@@ -87,10 +96,11 @@
         </div>
         <div class="content">
           <section class="hero-action">
-            <img
+            <!-- <img
               src="images/hero-image.jpg"
               alt="image of Samsan"
-            />
+            /> -->
+            
             <h2>Welcome to Samsan</h2>
             <form action="join.html">
               <button type="submit">Join the Chamber</button>
@@ -108,31 +118,18 @@
               <a href="#">more info ...</a>
             </div>
           </section>
-          <section class="text-center">
-            <h4>Weather</h4>
-            <div class="weather-box">
-              <figure>
-                <img src="images/weather.jpg" alt="" id="weather-icon" />
-                <figcaption></figcaption>
-              </figure>
-              <em class="weather-temp">
-                <span id="current-temp"></span>
-                <span class="tiny-text">&deg;</span>
-              </em>
-            </div>
-            <hr />
-            <div class="weather-grid">
-              <div>:</div>
-              <div><span id="current-humidity"></span></div>
-              <div></div>
-              <div><span id="current-wind"></span> </div>
-              <div></div>
-              <div>
-                <span id="windchill"></span>
-                <span id="windchill-unit"></span>
-              </div>
-            </div>
-          </section>
+          <section class="mainSection">
+            <h2>Weather</h2>
+            <!-- <picture class="icon">
+            <img src="images/weatherWep.webp" alt="weathericon">
+            </picture> -->
+            <figure><img src="https://openweathermap.org/img/w/04n.png" alt="weather image" id="weathericon" /> 
+            <figcaption>Today's weather</figcaption></figure>
+            <p>The current temperature in Accra,Ghana is <span id="temp"></span> &deg;</p>
+            <p>Current wind speed <span id="speed"></span>mph</p>
+            <!-- <p>The current conditions icon path is "<span id="icon-src"></span>"</p> -->
+            <p id="chill">message</p>
+        </section>
           <section>
             <h3 class="text-center">News Release</h3>
             <div class="section-news">

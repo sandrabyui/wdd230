@@ -15,7 +15,7 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     --main-font-color: rgb(157, 221, 162);
     --main-headings-color: rgb(161, 224, 89);
     --background-color: #150578;
-    --section-background-color: #FF5400;
+    --section-background-color: #61b4cb;
 }
 
 
@@ -50,7 +50,7 @@ font-size: 1.1em;
 .weather-warning-banner {
     padding-top: 0.3em;
     min-height: 2em;
-    background-color: #eb5050;
+    background-color: #6a94d4;
     color: black;
     text-align: center;
     align-items: center; /* Vertical center alignment */
@@ -62,7 +62,7 @@ font-size: 1.1em;
 .header-content {
     padding: .8rem 2%;
   
-    background-image: linear-gradient(to right, #FF5400 , #9ddbff, #FF5400);
+    background-image: linear-gradient(to right, #c8d3d930 , #9ddbff, #53b0c5);
     display: grid;
     grid-template-columns: 100px auto;
 }
@@ -200,6 +200,23 @@ main picture img {
     grid-gap: 10px;
 }
 
+.hero {
+	background-image: url('../images/chamberpicture.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+main picture.heroSRC {
+	display: block;
+	width: 100%;
+	margin: 0;
+}
+main picture.heroSRC img {
+	width: 100%;
+}
+
+
 .discover-grid {
     display: grid;
     grid-template-columns: 1fr;
@@ -207,7 +224,7 @@ main picture img {
     grid-gap: 0.5rem; 
 }
 .discover-grid figure {
-    background-color: #FF5400;
+    background-color: #c9d6de93;
     padding: 1em;
     margin: 0 0 3rem 0;
     border-radius: 0.3em;
@@ -226,7 +243,7 @@ main picture img {
     outline: 1px solid rgb(9, 77, 67);
 }
 .discover-item {
-    background-color: #FF5400;
+    background-color: #54bbee;
     padding: 1em;
     border-radius: 1em;
 }
@@ -307,13 +324,13 @@ form label textarea
     margin-top: 0.5em;
 }
 form label input, form label select, form label textarea{
-    background-color: rgb(174, 222, 250);
+    background-color: rgb(60, 74, 82);
 }
 form label input:required{
-    border-left: red solid 6px;
+    border-left: rgb(38, 143, 172) solid 6px;
 }
 form label input:required:valid{
-    border-left: lime solid 6px;
+    border-left: rgb(2, 7, 2) solid 6px;
 }
 form label select{
     margin-left:1em;
@@ -337,7 +354,7 @@ form label select{
 }
 
 section {
-    background-color: #FF5400;
+    background-color: #5dc8f9;
     margin: 0.2em;
     padding: 0.5em;
 }
@@ -370,7 +387,7 @@ border: 0;
     position:absolute;
     margin: 1.5rem;
     color:#85e3ff;
-    text-shadow:  2px 2px #000000;
+    text-shadow:  2px 2px #0b0101;
 }
 
 .hero-action button {
@@ -388,7 +405,7 @@ border: 0;
 
 .goldspotlight{
 
-    background: linear-gradient(to right, var(--background-color), #112f3d, var(--background-color));
+    background: linear-gradient(to right, var(--background-color), #094d6d, var(--background-color));
     margin: 0 1.1em 1em 1.1em;
 }
 .goldspotlight img {
@@ -409,7 +426,7 @@ border-radius: 0.5em;
     width: 40%;
     margin: 0.5em;
 padding: 0.1em;
-background: linear-gradient(rgba(65, 145, 138, 0.301), rgba(10, 49, 78, 0.39));
+background: linear-gradient(rgba(9, 2, 37, 0.301), rgba(10, 49, 78, 0.39));
 border-radius: 0.5em;
 }
 .spotlight h3 {
@@ -489,7 +506,7 @@ color: rgb(83, 150, 238);
 }
 
 .weather-box figure img{
-    background: linear-gradient(rgb(65, 179, 255), rgb(211, 211, 81));
+    background: linear-gradient(rgb(8, 56, 180), rgb(3, 14, 58));
     border-radius: 5px;
     margin-top: 0.1em;
 }
@@ -618,12 +635,12 @@ text-align: end;
 }
 
 .panelview img{
-    background-color: rgb(78, 134, 160);
+    background-color: rgb(78, 160, 154);
     padding: 1em;
     display: block;
     margin: auto;
     width: 70%;
-    box-shadow:  5px 5px 10px #0000007c;
+    box-shadow:  5px 5px 10px #224fe07c;
     border-radius: 5px;
     max-width: 200px;
 }
@@ -666,7 +683,7 @@ text-align: end;
     padding: 1em 2em 2em 2em;
     border-radius: 5px;
     background: linear-gradient(rgb(231, 248, 231), rgb(164, 209, 218) 95%, rgb(54, 88, 94));
-    color: rgb(0, 0, 0);
+    color: rgba(48, 138, 222, 0.253);
 }
 .contact-info-card .contact-dd-center{
     background: none;
@@ -695,7 +712,7 @@ font-weight: normal;
 
 .outside-div
 {
-    background-color: #FF5400;
+    background-color: #18c4db;
     margin: 1em 2.5% 0.2em 2.5%;
     padding: 1.5em 2em;
     line-height: 1.5em;
@@ -721,7 +738,7 @@ padding-right: 0.3em;
 
 .forecast-box .forecast-title
 {
-    background: linear-gradient(to right, var(--background-color), rgb(32, 60, 73), var(--background-color));
+    background: linear-gradient(to right, var(--background-color), rgb(11, 11, 11), var(--background-color));
     padding: 0.6em 0;
     margin-bottom: 2em;
 }
@@ -730,7 +747,7 @@ padding-right: 0.3em;
 .forecast-box h2{
 margin: 0 0 0.3em 0;
 padding: 0;
-color: rgb(206, 206, 104);
+color: rgb(57, 11, 242);
 }
 .forecast-box p{
     margin: 0 0 0.5em 0;
@@ -745,7 +762,7 @@ grid-gap: 1em;
 padding: 0 1em 1em 1em;
 }
 #forecast-div div{
-background-color: rgba(255, 255, 255, 0.064);
+background-color: rgba(3, 16, 16, 0.064);
 margin-top: 0.8em;
 padding: 0 0.6em 0.3em 0.6em;
 border-radius: 0.2em;
@@ -764,7 +781,7 @@ margin-top: 0;
 }
 
 footer {
-    background-image: linear-gradient(to right, #FF5400 , #9ddbff, #FF5400);
+    background-image: linear-gradient(to right, #26c3e3 , #9ddbff, #acd8e1);
   
     text-align: center;
     font-weight: bold;
@@ -772,7 +789,7 @@ footer {
 }
 
 hr {
-    border: 1px solid rgba(41, 41, 41, 0.233);
+    border: 1px solid rgba(13, 154, 206, 0.233);
 }
 
 .foot-logo-box {

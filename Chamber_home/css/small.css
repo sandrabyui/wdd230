@@ -13,8 +13,8 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     --accent-color: #2D3E40;
 
     --main-font-color: rgb(157, 221, 162);
-    --main-headings-color: rgb(161, 224, 89);
-    --background-color: #150578;
+    --main-headings-color: rgb(3, 3, 3);
+    --background-color: #1092ef;
     --section-background-color: #61b4cb;
 }
 
@@ -29,8 +29,12 @@ body {
 }
 h1, h2, h3, h4{
     font-family: 'Playfair Display', serif;
+    color:#0b0101
 }
 
+p{
+    color:#0b0101;
+}
 
 
 
@@ -39,7 +43,7 @@ h1, h2, h3, h4{
 .announcement-banner {
 min-height: 5em;
 background-color: #53bf73;
-color: black;
+
 text-align: center;
 display: none;
 align-items: center; /* Vertical center alignment */
@@ -51,7 +55,7 @@ font-size: 1.1em;
     padding-top: 0.3em;
     min-height: 2em;
     background-color: #6a94d4;
-    color: black;
+
     text-align: center;
     align-items: center; /* Vertical center alignment */
     justify-content: center; /* Horizontal center alignment */
@@ -175,10 +179,10 @@ main {
 
 main h1 {
     font-size: 1.6em;
-    color: var(--main-headings-color);
+    color: black;
 }
 main h2 {
-    color: #31c469;
+    color: black;
 }
 
 
@@ -386,9 +390,11 @@ border: 0;
 .hero-action h2 {
     position:absolute;
     margin: 1.5rem;
-    color:#85e3ff;
+    color:black;
     text-shadow:  2px 2px #0b0101;
 }
+
+
 
 .hero-action button {
     position:absolute;
@@ -416,7 +422,7 @@ border-radius: 0.5em;
 }
 
 .goldspotlight h2 {
-    color: gold;
+    color: black;
 }
 .goldspotlight h3 {
     color: white;
@@ -747,7 +753,7 @@ padding-right: 0.3em;
 .forecast-box h2{
 margin: 0 0 0.3em 0;
 padding: 0;
-color: rgb(57, 11, 242);
+color:black;
 }
 .forecast-box p{
     margin: 0 0 0.5em 0;

@@ -27,13 +27,15 @@ fetch(requestURL)
     // Change the textContent property of the h2 element to contain the companies full name
     companiesName.textContent =`${companies.name}`; 
     companiesAdd.textContent =`${companies.address}`;
-    companiesPhone.textContent =`${companies.phone}`;
+    companiesPhone.textContent =`${companies.phonenumber}`;
     companiesImg.textContent =`${companies.imageurl}`;
   
-    // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
-    grid.setAttribute('src', companies.imageurl);
-    grid.setAttribute('alt', 'Portait of ' + companies.name + ' ' + companies.address +' '+ companies.phone );
-    grid.setAttribute('loading', 'lazy');
+    
+    companiesImg.setAttribute('src',companies.imageurl);
+    companiesImg.setAttribute('alt',companies.name);
+    companiesImg.setAttribute('loading','lazy');
+    
+
   
     // Add/append the section(card) with the h2 element
     card.appendChild(companiesName);

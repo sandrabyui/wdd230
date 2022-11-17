@@ -2,71 +2,71 @@
     "companies" : [
         {
         "name": "Total pertroleum Ghana",
-        "äddress": "HQ4W+8QM,Accra",
+        "address": "HQ4W+8QM,Accra",
         "phonenumber": "030 261 1530",
-        "ïmagepurl": "https://www.top50brandsnigeria.com/wp-content/uploads/2020/09/Total-changes-its-name-and-becomes-TotalEnergies.jp"
+        "imageurl": "imageurl/total.webp"
     },
     {
         "name":"Nestle Ghana Ltd",
         "address":"No 33 South Legon Commerical Area Accra",
         "phonenumber":"030 251 720",
-        "imageurl":"https://www.google.com/imgres?imgurl=http%3A%2F%2Fcitifmonline.com%2Fwp-content%2Fuploads%2F2017%2F09%2Fnestle-ghana.jpg&imgrefurl=http%3A%2F%2Fm.ghheadlines.com%2Fagency%2Fcitifm%2F20170905%2F53495114%2Fnestl-opens-bidding-for-ghc23m-sustainability-prize&tbnid=R60kroZ_q-1PkM&vet=12ahUKEwiCydqd3an7AhUQ5IUKHa8oBWMQMygQegQIARBi..i&docid=TipvqbX0Ly26WM&w=606&h=330&itg=1&q=nestle%20ghana&hl=en&ved=2ahUKEwiCydqd3an7AhUQ5IUKHa8oBWMQMygQegQIARBi"
+        "imageurl":"imageurl/NestleGH.webp"
     },
     {
         "name":"Kola Shopping Centre",
         "address":"Osu  Greater Accra",
         "phonenumber":"030 277 3455",
-        "imageurl":"https://fastly.4sqi.net/img/general/600x600/2449497_TVP6LXseVdu8BL3HmiBpwjsAXMWHxga3XiaTB8hXXMM.jpg"  
+        "imageurl":"imageurl/koalaShopping.webp"  
     },
 
     {
         "name":"Food and Durgs Authortiy",
         "address":"17 Nelson Mandela Ave, Accra",
         "phonenumber":"030 233 3200",
-        "imageurl":"https://www.google.com/maps/uv?pb=!1s0xfdf9b7332eef9b7:0xfc6062c71f107e05!3m1!7e115!4shttps://lh5.googleusercontent.com/p/AF1QipOts_aAwIts2OfikBT5NtXle76bsWrX6cbNDgPO%3Dw426-h240-k-no!5sfda+ghana+-+Google+Search!15zQ2dJZ0FRPT0&imagekey=!1e10!2sAF1QipOts_aAwIts2OfikBT5NtXle76bsWrX6cbNDgPO&hl=en&sa=X&ved=2ahUKEwj-tsme36n7AhXF_7sIHZc8CKUQoip6BAh8EAM"
+        "imageurl":"imageurl/food_drugs.webp"
     },
 
     {
         "name":"Zenith Bank Head office",
         "address":"HR84+7CW, Accra",
         "phonenumber":"030 242 9700",
-        "imageurl":"https://www.google.com/maps/uv?pb=!1s0xfdf9a7975adf131:0xb8b1107d7a556994!3m1!7e115!4shttps://lh5.googleusercontent.com/p/AF1QipPQFWqiEDqQBKwdLG3Fu6FY-KOh39wPe9erpdnZ%3Dw260-h175-n-k-no!5szenith+bank+ghana+-+Google+Search!15zQ2dJZ0FRPT0&imagekey=!1e10!2sAF1QipPQFWqiEDqQBKwdLG3Fu6FY-KOh39wPe9erpdnZ&hl=en&sa=X&ved=2ahUKEwjsx-e04Kn7AhXVh_0HHRD5AacQ7ZgBKAB6BAgTEAI"
+        "imageurl":"imageurl/ZenithBank.webp"
     },
     {
         "name":"Melcom Amasaman branch",
         "address":"Achiaman",
         "phonenumber":"056 111 2777",
-        "imageurl":"https://www.google.com/maps/uv?pb=!1s0xfdfa1704c024809:0xb26933099f4d593e!3m1!7e115!4shttps://lh5.googleusercontent.com/p/AF1QipOyE2dSJn7sSnSDF6EOfW67OoL67rr9Q57v8Ey1%3Dw260-h175-n-k-no!5smelcom+ghana+-+Google+Search!15zQ2dJZ0FRPT0&imagekey=!1e10!2sAF1QipOyE2dSJn7sSnSDF6EOfW67OoL67rr9Q57v8Ey1&hl=en&sa=X&ved=2ahUKEwjjr77D4an7AhVQg_0HHQ54BDUQ7ZgBKAB6BAgVEAI"
+        "imageurl":"imageurl/Melcom.webp"
     },
     {
         "name":"Stand chartered bank",
         "address":"Legon Campus, Accra",
         "phonenumber":"028 951 2612",
-        "imageurl":"https://www.google.com/maps/uv?pb=!1s0xfdf9c7eaac8b26f:0x4e8df7fd221de29c!3m1!7e115!4shttps://lh5.googleusercontent.com/p/AF1QipPoBE0tyJcbYkC7BkHhwkT0Vk5J_YJfz9KKqyCi%3Dw130-h87-n-k-no!5sstandard+chartered+bank+ghana+-+Google+Search!15zQ2dJZ0FRPT0&imagekey=!1e10!2sAF1QipPoBE0tyJcbYkC7BkHhwkT0Vk5J_YJfz9KKqyCi&hl=en&sa=X&ved=2ahUKEwijibS94qn7AhWhTOUKHWfDArwQ7ZgBKAF6BAgZEAM"
+        "imageurl":"imageurl/Stand_bank.jpg"
     },
     {
         "name":"Decorplast Ltd",
         "address":"Dandeban Rd,Accra",
         "phonenumber":"024 693 6410",
-        "imageurl":"https://www.google.com/maps/uv?pb=!1s0xfdf99f561a18103:0xc8aada1af0f1d261!3m1!7e115!4shttps://lh5.googleusercontent.com/p/AF1QipPnCgj42FQr8_NyKV7cCyfIwa8g4IIz5Fjd3pD1%3Dw86-h87-n-k-no!5sdecoplast+-+Google+Search!15zQ2dJZ0FRPT0&imagekey=!1e10!2sAF1QipPnCgj42FQr8_NyKV7cCyfIwa8g4IIz5Fjd3pD1&hl=en&sa=X&ved=2ahUKEwjSwOyq5Kn7AhVLgP0HHeT9CmEQ7ZgBKAN6BAgZEAU"
+        "imageurl":"imageurl/DecorplastLtd.jpg"
     },
     {
         "name":"Shoprite Achimota",
         "address":"No 6 Accra",
         "phonenumber":"024 350 0498",
-        "imageurl":"https://www.google.com/maps/uv?pb=!1s0xfdf9949b304177d:0x27ff340103f3540d!3m1!7e115!4shttps://lh5.googleusercontent.com/p/AF1QipPWUCpfkNBAOEmh-eOtYwb6skZ6ZrEWymBkLY1b%3Dw260-h175-n-k-no!5sshoprite+ghana+-+Google+Search!15zQ2dJZ0FRPT0&imagekey=!1e10!2sAF1QipPWUCpfkNBAOEmh-eOtYwb6skZ6ZrEWymBkLY1b&hl=en&sa=X&ved=2ahUKEwiW--Sd5an7AhVihf0HHX2_AyMQ7ZgBKAB6BAgaEAI"
+        "imageurl":"imageurl/Shoprite.webp"
     },
     {
         "name":"Hallmark Cafe",
         "address":"105 olusegun way,Accra",
         "phonenumber":"030 279 0426",
-        "imageurl":"https://www.google.com/maps/uv?pb=!1s0xfdf9b5b5e40fc1b:0x6b39713e937f5f70!3m1!7e115!4shttps://lh5.googleusercontent.com/p/AF1QipOmZgDJG4ExWigfzXQ7UT0Mj1tF0LR-2stySuCb%3Dw86-h87-n-k-no!5shallmark+cafe+ghana+-+Google+Search!15zQ2dJZ0FRPT0&imagekey=!1e10!2sAF1QipOmZgDJG4ExWigfzXQ7UT0Mj1tF0LR-2stySuCb&hl=en&sa=X&ved=2ahUKEwi-jcC85qn7AhWg57sIHU9lAp4Q7ZgBKAR6BAgEEAY"
+        "imageurl":"imageurl/HallmarkCafe.webp"
     },
     {
         "name":"Roche Products GH",
         "address":"NO,421B Agostinho Neto RD, Accra",
         "phonenumber":"030 277 4752",
-        "imageurl":"https://www.google.com/maps/uv?pb=!1s0xfdf9afd7e04f75d:0x133cd67e06235a43!3m1!7e115!4shttps://lh5.googleusercontent.com/p/AF1QipMUfDOisD02D55s_osmBmYwOrD_h4pN4Z9WADto%3Dw130-h87-n-k-no!5scompanies+in+ghana+-+Google+Search!15zQ2dJZ0FRPT0&imagekey=!1e10!2sAF1QipMUfDOisD02D55s_osmBmYwOrD_h4pN4Z9WADto&hl=en&sa=X&ved=2ahUKEwiD_O_L6qn7AhU5i_0HHQ95CqgQ7ZgBKAJ6BAgUEAQ"
+        "imageurl":"imageurl/Roche.webp"
     }
 
 

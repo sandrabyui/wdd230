@@ -1,203 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="description"
-      content="Commerce Website: Student Project WDD 230"
-    />
-    <meta name="author" content="Sandra" />
 
-    <title>Chamber of Commerce Home Page</title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="description" content="Commerce Website: Student Project WDD 230" />
+  <meta name="author" content="Sandra" />
 
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, maximum-scale=1"
-    />
+  <title>Chamber of Commerce Home Page</title>
 
-    <!-- STYLE SHEETS -->
-    <link href="css/normalize.css" rel="stylesheet" />
-    <!-- phone-default -->
-    <link href="css/small.css" rel="stylesheet" />
-    <!-- enhance-tablet -->
-    <link href="css/medium.css" rel="stylesheet" />
-    <!-- enhance-desktop -->
-    <link href="css/large.css" rel="stylesheet" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand:wght@300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="shortcut icon" href="favicon.ico" />
-    <script defer src="js/windchil.js"></script>
-  </head>
-  <body>
-    <!-- TOP ANNOUNCEMENT BANNER HERE -->
-    <div class="announcement-banner">
-      🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+  <!-- STYLE SHEETS -->
+  <link href="css/normalize.css" rel="stylesheet" />
+  <!-- phone-default -->
+  <link href="css/small.css" rel="stylesheet" />
+  <!-- enhance-tablet -->
+  <link href="css/medium.css" rel="stylesheet" />
+  <!-- enhance-desktop -->
+  <link href="css/large.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Quicksand:wght@300&display=swap"
+    rel="stylesheet" />
+  <link rel="shortcut icon" href="favicon.ico" />
+  <script defer src="js/windchil.js"></script>
+</head>
+
+<body>
+  <!-- TOP ANNOUNCEMENT BANNER HERE -->
+  <div class="announcement-banner">
+    🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
+  </div>
+  <!-- BAD WEATHER BANNER HERE -->
+  <div class="weather-warning-banner">☁ Weather Alert! Warning</div>
+  <!-- HEADER HERE -->
+  <header>
+    <div class="header-content">
+      <a href="index.html"><img src="images/SamSanLogo.jpeg" alt="Samsan Commerce Logo" /></a>
+      <div>
+        <h2>SamSan <br />
+          Chamber of Commerce</h2>
+      </div>
+
+      <div class="date">current date</div>
     </div>
-    <!-- BAD WEATHER BANNER HERE -->
-    <div class="weather-warning-banner">☁ Weather Alert! Warning</div>
-    <!-- HEADER HERE -->
-    <header>
-      <div class="header-content">
-        <a href="index.html"
-          ><img src="images/SamSanLogo.jpeg" alt="Samsan Commerce Logo"
-        /></a>
-        <div>
-          <h2>SamSan <br/>
-            Chamber of Commerce</h2>
-        </div>
+  </header>
 
-        <div class="date">current date</div>
+  <!-- NAVIGATION HERE -->
+  <nav>
+    <div class="social">
+      <a href="https://www.facebook.com/"><img src="images/square-facebook.svg" alt="facebook social media link" /></a>
+      <a href="https://www.twitter.com"><img src="images/square-twitter.svg" alt="twitter social link" /></a>
+      <a href="https://www.linkedin.com"><img src="images/linkedin.svg" alt="linkedin social link" /></a>
+    </div>
+    <ul class="navigation">
+      <li><a class="ham" href="#">☰</a></li>
+      <li class="active"><a href="index.html">Home</a></li>
+      <li><a href="discovey/discover.html">Discover</a></li>
+      <li><a href="bussinessDirectory/directory.html">Directory</a></li>
+      <li><a href="join.html">Join</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- CONTENT HERE -->
+
+  <main>
+    <picture class="heroSRC">
+      <source srcset="images/waterFall100.webp" media="(max-width: 200px)">
+      <source srcset="images/waterFall200.webp" media="(max-width: 200px)">
+      <source srcset="images/waterFall400.webp" media="(max-width: 400px)">
+      <img src="images/waterFall.jpg" alt="heroSrcimage">
+    </picture>
+
+
+    <div class="content-container">
+      <div class="outside-div">
+        <em> Samsan Chamber of Commerce</em> <br />
+
       </div>
-    </header>
-
-    <!-- NAVIGATION HERE -->
-    <nav>
-      <div class="social">
-        <a href="https://www.facebook.com/"
-          ><img src="images/facebook.jpg" alt="facebook social media link"
-        /></a>
-        <a href="https://www.twitter.com"
-          ><img src="images/twitter.jpg" alt="twitter social link"
-        /></a>
-        <a href="https://www.linkedin.com"
-          ><img src="images/linkedin.jpg" alt="linkedin social link"
-        /></a>
-      </div>
-      <ul class="navigation">
-        <li><a class="ham" href="#">☰</a></li>
-        <li class="active"><a href="index.html">Home</a></li>
-        <li><a href="discover.html">Discover</a></li>
-        <li><a href="bussinessDirectory/directory.html">Directory</a></li>
-        <li><a href="join.html">Join</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ul>
-    </nav>
-
-    <!-- CONTENT HERE -->
-
-    <main>
-      <picture class="heroSRC">
-        <source srcset="images/heroSrc200.webp" media = "(max-width: 200px)">
-        <source srcset="images/heroSrc500.webp" media = "(max-width: 500px)">
-        <source srcset="images/heroSrc800.webp" media = "(max-width: 800px)" >
-        <img src="images/heroSrc.webp" alt="heroSrcimage">
-        </picture>
-
-
-      <div class="content-container">
-        <h1>Home</h1>
-        <div class="outside-div">
-          <em> Samsan Chamber of Commerce</em> <br />
-          
-        </div>
-        <div class="content">
-          <section class="hero-action">
-            <!-- <img
+      <div class="content">
+        <section class="hero-action">
+          <p>Welcome To SamSan GHANA</p>
+          <!-- <img
               src="images/hero-image.jpg"
               alt="image of Samsan"
             /> -->
-            
-            <h2>Welcome to Samsan</h2>
-            <form action="join.html">
-              <button type="submit">Join the Chamber</button>
-            </form>
-          </section>
-          <section class="text-center">
-            <h3>text</h3>
-            <hr />
-            <div class="text-center">
-              <img src="images/im" alt="image" />
+
+          <h2>Welcome to Samsan</h2>
+          <form action="join.html">
+            <img src="images/independence.jpg">
+            <button type="submit">Join the Chamber</button>
+          </form>
+        </section>
+        <section class="text-center">
+          <h3>About US</h3>
+          <div class="text-center">
+            <img src="images/city.webp" alt="image" />
             <span class="tiny-text">&copy;</span>
-              <p class="event-info">
-                
-              </p>
-              <a href="#">more info ...</a>
-            </div>
-          </section>
-          <section class="mainSection">
-            <h2>Weather</h2>
-            <!-- <picture class="icon">
+            <p class="event-info">
+
+            </p>
+            <a href="https://www.atlasobscura.com/places/black-star-square">more info</a>
+          </div>
+        </section>
+        <section class="mainSection">
+          <h2>Weather</h2>
+          <!-- <picture class="icon">
             <img src="images/weatherWep.webp" alt="weathericon">
             </picture> -->
-            <figure><img src="https://openweathermap.org/img/w/04n.png" alt="weather image" id="weathericon" /> 
-            <figcaption>Today's weather</figcaption></figure>
-            <p>The current temperature in Accra,Ghana is <span id="temp"></span> &deg;</p>
-            <p>Current wind speed <span id="speed"></span>mph</p>
-            <!-- <p>The current conditions icon path is "<span id="icon-src"></span>"</p> -->
-            <p id="chill">message</p>
+          <figure><img src="https://openweathermap.org/img/w/04n.png" alt="weather image" id="weathericon" />
+            <figcaption>Today's weather</figcaption>
+          </figure>
+          <p>The current temperature in Accra,Ghana is <span id="temp"></span> &deg;</p>
+          <p>Current wind speed <span id="speed"></span>mph</p>
+          <!-- <p>The current conditions icon path is "<span id="icon-src"></span>"</p> -->
+          <p id="chill">message</p>
         </section>
-          <section>
-            <h3 class="text-center">News Release</h3>
-            <div class="section-news">
-              <div class="news-title">
-                
-              </div>
-              <div class="news-date">text here</div>
-              
-            </div>
-          </section>
-
-          <section id="spotlight1" class="text-center spotlight">
-            <h2>spotlight</h2>
-          </section>
-          <section id="spotlight2" class="text-center spotlight">
-            <h2>spotlight</h2>
-          </section>
-
-          <section class="join text-center">
-            <div>
-              <form action="join.html">
-                <h4>
-                  <button type="submit">Join us!</button>
-                </h4>
-              </form>
-
+        <section>
+          <h3 class="text-center"><a href="https://www.ghanabusinessnews.com/category/general-news/">News Release</a></h3>
+          <div class="section-news">
+            <div class="news-title">
               <p>
-                text
-              </p>
+                SamSan NEWS FLASH !!!!,br> </p>
+            <p>Want to have fun and visit all over GHANA.
+            </p>
+            <h3>This is the time to join us. There is going to be a tirp all round Ghana
+            from the 23rd - 27th of December,2022 
+            PLease all (+233 0546-059-816) for titckets,booking and for more information.
+              </h3>
+              <a href="https://www.ghanabusinessnews.com/category/general-news/"></a>
+
             </div>
-          </section>
-        </div>
+            <div class="news-date">sandra</div>
 
-        <section id="spotlight3" class="text-center goldspotlight">
-          <h2>spotlight</h2>
-          <h2>text</h2>
-          <hr />
+          </div>
         </section>
-        <section class="goldspotlight">
-         text
-        
-        </section>
-      </div>
-    </main>
 
-    <!-- FOOTER HERE -->
-    <footer>
-      <div class="foot-logo-box">
-        <div>
-          <img src="images/SamSanLogo.jpeg" alt="SamSan Commerce Logo" />
-          <h3>SamSan Chambers of Commerce</h3>
-          <p>Accra-Main SamSan, GHANA</p>
-        </div>
-        <div>
-          <em>dreamsonsasa60@yahoo.com</em>
-          <p>+(233) 546 059 816</p>
-         
-        </div>
+        <section id="spotlight1" class="text-center spotlight">
+          <h2></h2>
+          <img src="images/NestleGH.webp" alt="NestleGH">
+          <p>
+            <a href="https://www.nestle-cwa.com/en">Nestle</a>
+          </p>
+        </section>
+        <section id="spotlight2" class="text-center spotlight">
+          <h2></h2>
+          <p>
+            <img src="images/castle.jpg">
+            <a href="https://www.ghanamuseums.org/forts/cape-coast-castle.php">event-info</a>
+          </p>
+        </section>
+
+        <section class="join text-center">
+          <div>
+            <form action="join.html">
+              <h4>
+                <img src="images/carnopy.jpg">
+                <button type="submit">Join us!</button>
+              </h4>
+            </form>
+          </div>
+        </section>
       </div>
-      <hr />
-      <div class="foot-info-box">
-        <div class="date">current date</div>
-        &copy; <span id="year">year</span> &bull; Samsan River Commerce | Sandra Adeleye
-         | WDD 230 Project | Last modification:
-        <span id="modified">last modified</span>
+
+      <section id="spotlight3" class="text-center goldspotlight">
+        <h2>BUILDING THE NATION</h2>
+        <h2></h2>
+        <hr />
+      </section>
+      <section class="goldspotlight">
+        We are good in what we do. Come join us in changing the world through ACT......
+
+      </section>
+    </div>
+  </main>
+
+  <!-- FOOTER HERE -->
+  <footer>
+    <div class="foot-logo-box">
+      <div class="foot-logo">
+        <img src="images/SamSanLogo.jpeg" alt="SamSan Commerce Logo" />
+        <h3>SamSan Chambers of Commerce</h3>
+        <p>Accra-Main SamSan, GHANA</p>
       </div>
-      <script src="js/chamber-script.js"></script>
-     
-    </footer>
-  </body>
+      <div>
+        <em>dreamsonsasa60@yahoo.com</em>
+        <p>+(233) 546 059 816</p>
+
+      </div>
+    </div>
+    <div class="foot-info-box">
+      <div class="date">current date</div>
+      &copy; <span id="year">year</span> &bull; Samsan River Commerce | Sandra Adeleye
+      | WDD 230 Project | Last modification:
+      <span id="modified">last modified</span>
+    </div>
+    <script src="js/chamber-script.js"></script>
+
+  </footer>
+</body>
+
 </html>

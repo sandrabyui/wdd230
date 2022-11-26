@@ -14,4 +14,7 @@ fetch(apiURL)
     document.querySelector('#weathericon').setAttribute('src', iconsrc);
     document.querySelector('#weathericon').setAttribute('alt', desc);
     document.querySelector('figcaption').textContent = desc;
-  });
+    const sped = jsObject.wind.speed;
+        document.querySelector("#speed").textContent = sped;
+    });
+  

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/small.css">
+    <link rel="stylesheet" href="./css/large.css">
+    <link rel="stylesheet" href="./css/medium.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <title>Join Us</title>
+</head>
+<body>
+    <div class="join_header"><h3>Join Us</h3></div>
+
+    <section class="contact-section">
+        <div class="container">
+    <div class="row">
+    <div class="contact-form">
+    <form action="thankyou.html" method="get"  accept-charset="UTF-8">
+
+        <div class="row">
+            <div class="w-50">
+                <div class="input-group">
+                <label for="first_name">First Name</label>
+        <input type="text" name="first_name" placeholder="First Name" class="input-control" required/>
+    </div>
+
+        <div class="input-group">
+            <label for="last_name">Last Name</label>
+        <input type="text" name="last_name" placeholder="Last Name" class="input-control" required/>
+    </div>
+
+        <div class="input-group">
+            <label for="business_position">Business Position</label>
+        <input type="text" name="business_position" class="input-control" required/></div>
+
+        <div class="input-group">
+            <label for="email">Email</label>
+        <input type="email" placeholder="example@email.com" name="email" class="input-control" required/></div>
+
+        <div class="input-group">
+            <label for="tel_num">Telephone Number</label>
+        <input type="tel" maxlength="10" required name="tel_num" class="input-control"/></div>
+
+        <div class="input-group">
+            <label for="business_name">Business Name</label>
+        <input type="text" required name="business_name" class="input-control"/></div>
+
+        <div class="input-group">
+            <label for="membership_level">Membership Level</label>
+            <select name="membership" name="membership_level">
+            <option>NP Membership</option>
+            <option>Bronze Membership</option>
+            <option>Silver Membership</option>
+            <option>Gold Membership</option>
+        </select></div>
+
+        <div class="input-group">
+        <label for="b_description">Business Description</label>
+        <textarea name="b_description" class="input-control">
+            
+            </textarea>
+        </div>
+
+        <div class="input-group">
+            <input type="datetime-local" id="date" hidden name="local_date">
+        </div>
+
+        <div><input type="submit"> </div>
+    </form>
+</div>
+    </div>
+</div>
+</div>
+</div>
+</section>
+
+    <script>
+        document.getElementById('date').valueAsDate = new Date();
+    </script>
+
+</body>
+</html>

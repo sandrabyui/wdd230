@@ -1,0 +1,86 @@
+{
+    "companies" : [
+        {
+        "name": "Total pertroleum Ghana",
+        "address": "HQ4W+8QM,Accra",
+        "phonenumber": "030 261 1530",
+        "imageurl": "imageurl/totalgh.webp"
+    },
+    {
+        "name":"Nestle Ghana Ltd",
+        "address":"No 33 South Legon Commerical Area Accra",
+        "phonenumber":"030 251 720",
+        "imageurl":"imageurl/NestleGH.webp"
+    },
+    {
+        "name":"Kola Shopping Centre",
+        "address":"Osu  Greater Accra",
+        "phonenumber":"030 277 3455",
+        "imageurl":"imageurl/koalaShopping.webp"  
+    },
+
+    {
+        "name":"Food and Durgs Authortiy",
+        "address":"17 Nelson Mandela Ave, Accra",
+        "phonenumber":"030 233 3200",
+        "imageurl":"imageurl/food_drugs.webp"
+    },
+
+    {
+        "name":"Zenith Bank Head office",
+        "address":"HR84+7CW, Accra",
+        "phonenumber":"030 242 9700",
+        "imageurl":"imageurl/ZenithBank.webp"
+    },
+    {
+        "name":"Melcom Amasaman branch",
+        "address":"Achiaman",
+        "phonenumber":"056 111 2777",
+        "imageurl":"imageurl/Melcom.webp"
+    },
+    {
+        "name":"Stand chartered bank",
+        "address":"Legon Campus, Accra",
+        "phonenumber":"028 951 2612",
+        "imageurl":"imageurl/Stand_bank.jpg"
+    },
+    {
+        "name":"Decorplast Ltd",
+        "address":"Dandeban Rd,Accra",
+        "phonenumber":"024 693 6410",
+        "imageurl":"imageurl/DecorplastLtd.jpg"
+    },
+    {
+        "name":"Shoprite Achimota",
+        "address":"No 6 Accra",
+        "phonenumber":"024 350 0498",
+        "imageurl":"imageurl/Shoprite.webp"
+    },
+    {
+        "name":"Hallmark Cafe",
+        "address":"105 olusegun way,Accra",
+        "phonenumber":"030 279 0426",
+        "imageurl":"imageurl/HallmarkCafe.webp"
+    },
+    {
+        "name":"Roche Products GH",
+        "address":"NO,421B Agostinho Neto RD, Accra",
+        "phonenumber":"030 277 4752",
+        "imageurl":"imageurl/Roche.webp"
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]
+}

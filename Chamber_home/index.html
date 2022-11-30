@@ -27,41 +27,37 @@
 </head>
 
 <body>
-  <!-- TOP ANNOUNCEMENT BANNER HERE -->
-  <div class="announcement-banner">
-    🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.
-  </div>
-  <!-- BAD WEATHER BANNER HERE -->
-  <div class="weather-warning-banner">☁ Weather Alert! Warning</div>
-  <!-- HEADER HERE -->
+<!-- HEADER HERE -->
   <header>
-    <div class="header-content">
-      <a href="index.html"><img src="images/SamSanLogo.jpeg" alt="Samsan Commerce Logo" /></a>
-      <div>
-        <h2>SamSan <br />
-          Chamber of Commerce</h2>
+      <div id="message">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+      <div class="logo">
+        <img src="images/SamSanLogo.jpeg"  alt=" Samsan logo"/>
       </div>
+      <div class= "headerSloganWrapper">
 
-      <div class="date">current date</div>
-    </div>
-  </header>
+        <h1>Samsan Chamber of Commerce</h1>
+<!--        <h2>"Building a business hub" </h2>-->
+        <p class="currentdate">Current Date</p>
+      </div>
+      <nav>
+        <div class="social">
+          <a href="https://www.facebook.com/"><img src="images/square-facebook.svg" alt="facebook social media link" /></a>
+          <a href="https://www.twitter.com"><img src="images/square-twitter.svg" alt="twitter social link" /></a>
+          <a href="https://www.linkedin.com"><img src="images/linkedin.svg" alt="linkedin social link" /></a>
+        </div>
+        <button id="hamburgerbttn"><span>&#9776;</span><span>X</span></button>
+        <ul id = "primaryNav" class = "open">
+          <li class = "active"><a href="index.html">Home</a></li>
+          <li><a href="discover.html">Discover</a></li>
+          <li><a href="join.html">Join</a></li>
+          <li><a href="directory.html">Directory</a></li>
+          <li><a href="contactUs.html">Contact Us</a></li>
+<!--          <li><a href="thankyou.html">Thank you</a></li>-->
 
-  <!-- NAVIGATION HERE -->
-  <nav>
-    <div class="social">
-      <a href="https://www.facebook.com/"><img src="images/square-facebook.svg" alt="facebook social media link" /></a>
-      <a href="https://www.twitter.com"><img src="images/square-twitter.svg" alt="twitter social link" /></a>
-      <a href="https://www.linkedin.com"><img src="images/linkedin.svg" alt="linkedin social link" /></a>
-    </div>
-    <ul class="navigation">
-      <li><a class="ham" href="#">☰</a></li>
-      <li class="active"><a href="index.html">Home</a></li>
-      <li><a href="discovey/discover.html">Discover</a></li>
-      <li><a href="bussinessDirectory/directory.html">Directory</a></li>
-      <li><a href="join.html">Join</a></li>
-      <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
+        </ul>
+
+      </nav>
+    </header>
 
   <!-- CONTENT HERE -->
 
@@ -81,12 +77,6 @@
       </div>
       <div class="content">
         <section class="hero-action">
-          <p>Welcome To SamSan GHANA</p>
-          <!-- <img
-              src="images/hero-image.jpg"
-              alt="image of Samsan"
-            /> -->
-
           <h2>Welcome to Samsan</h2>
           <form action="join.html">
             <img src="images/independence.jpg">
@@ -122,7 +112,7 @@
           <div class="section-news">
             <div class="news-title">
               <p>
-                SamSan NEWS FLASH !!!!,br> </p>
+                <br>SamSan NEWS FLASH !!!!<br> </p>
             <p>Want to have fun and visit all over GHANA.
             </p>
             <h3>This is the time to join us. There is going to be a tirp all round Ghana
@@ -132,7 +122,7 @@
               <a href="https://www.ghanabusinessnews.com/category/general-news/"></a>
 
             </div>
-            <div class="news-date">sandra</div>
+
 
           </div>
         </section>
@@ -191,14 +181,16 @@
       </div>
     </div>
     <div class="foot-info-box">
-      <div class="date">current date</div>
-      &copy; <span id="year">year</span> &bull; Samsan River Commerce | Sandra Adeleye
+<!--      <div class="date">current date</div>-->
+      &copy; <span id="current_year">year</span> &bull; Samsan River Commerce | Sandra Adeleye
       | WDD 230 Project | Last modification:
-      <span id="modified">last modified</span>
+      <span id="lastmod">last modified</span>
     </div>
-    <script src="js/chamber-script.js"></script>
+    <script src="js/chamber_script.js"></script>
 
   </footer>
 </body>
 
 </html>
+
+

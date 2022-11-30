@@ -9,49 +9,17 @@
     margin: auto;
   }
 
-  /*----------- BODY --------------*/
-
-
-
-  /*----------- HEADER --------------*/
-
-
-
   /*----------- NAVIGATION --------------*/
-  nav img {
-    padding-top: 3px;
-    width: 25px;
+
+  nav ul li a {
+    padding: 0.5rem 1rem;
   }
 
-  nav {
-    flex-direction: row-reverse;
+  .wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
   }
 
-  nav ul {
-    width: 80%;
-  }
-
-  nav div {
-    justify-content: right;
-  }
-
-  .navigation {
-    display: flex;
-  }
-
-  .navigation li {
-    display: block;
-    /* change state in small view */
-    flex: 1 1 auto;
-  }
-
-  .navigation a {
-    text-align: center;
-  }
-
-  .navigation li:first-child {
-    display: none;
-  }
 
   .header-content img {
     width: 90px;
@@ -129,7 +97,7 @@
   }
 
   .directory-grid section {
-    grid-template-columns: 2fr 2fr 2fr 1fr;
+    grid-template-columns: 2fr 2fr 2fr ;
   }
 
 

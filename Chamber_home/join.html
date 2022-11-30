@@ -4,14 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/small.css">
-    <link rel="stylesheet" href="./css/large.css">
-    <link rel="stylesheet" href="./css/medium.css">
-    <link rel="stylesheet" href="./css/normalize.css">
+    <link href="css/normalize.css" rel="stylesheet" />
+    <!-- phone-default -->
+    <link href="css/small.css" rel="stylesheet" />
+    <!-- enhance-tablet -->
+    <link href="css/medium.css" rel="stylesheet" />
+    <!-- enhance-desktop -->
+    <link href="css/large.css" rel="stylesheet" />
     <title>Join Us</title>
 </head>
 <body>
-    <div class="join_header"><h3>Join Us</h3></div>
+<header>
+    <div id="message">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+    <div class="logo">
+        <img src="images/SamSanLogo.jpeg"  alt=" Samsan logo"/>
+    </div>
+    <div class= "headerSloganWrapper">
+
+        <h1>Samsan Chamber of Commerce</h1>
+        <!--        <h2>"Building a business hub" </h2>-->
+        <p class="currentdate">Current Date</p>
+    </div>
+    <nav>
+        <div class="social">
+            <a href="https://www.facebook.com/"><img src="images/square-facebook.svg" alt="facebook social media link" /></a>
+            <a href="https://www.twitter.com"><img src="images/square-twitter.svg" alt="twitter social link" /></a>
+            <a href="https://www.linkedin.com"><img src="images/linkedin.svg" alt="linkedin social link" /></a>
+        </div>
+        <button id="hamburgerbttn"><span>&#9776;</span><span>X</span></button>
+        <ul id = "primaryNav" class = "open">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="discover.html">Discover</a></li>
+            <li class="active"><a href="join.html">Join</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
+            <li><a href="thankyou.html">Thank you</a></li>
+
+        </ul>
+
+    </nav>
+</header>
+
+
+<div class="join_header"><h3>Join Us</h3></div>
 
     <section class="contact-section">
         <div class="container">
@@ -75,10 +110,27 @@
 </div>
 </div>
 </section>
+    <footer>
+        <div class="foot-logo-box">
+            <div class="foot-logo">
+                <img src="images/SamSanLogo.jpeg" alt="SamSan Commerce Logo" />
+                <h3>SamSan Chambers of Commerce</h3>
+                <p>Accra-Main SamSan, GHANA</p>
+            </div>
+            <div>
+                <em>dreamsonsasa60@yahoo.com</em>
+                <p>+(233) 546 059 816</p>
 
-    <script>
-        document.getElementById('date').valueAsDate = new Date();
-    </script>
+            </div>
+        </div>
+        <div class="foot-info-box">
+            <!--      <div class="date">current date</div>-->
+            &copy; <span id="current_year">year</span> &bull; Samsan River Commerce | Sandra Adeleye
+            | WDD 230 Project | Last modification:
+            <span id="lastmod">last modified</span>
+        </div>
+<!--        <script src="js/chamber_script.js"></script>-->
 
+    </footer>
 </body>
 </html>

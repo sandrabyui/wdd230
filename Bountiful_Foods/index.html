@@ -24,36 +24,38 @@
     rel="stylesheet" />
   <link rel="shortcut icon" href="favicon.ico" />
   <script defer src="js/windchil.js"></script>
+  <script defer src="js/forecast.js"></script>
 </head>
 
 <body>
-<!-- HEADER HERE -->
+  <!-- HEADER HERE -->
   <header>
     <div id="message">🤝🏼 Come join us to help build a healthy community everyday at 7:00 a.m.</div>
-      <div class="logo">
-        <img src="images/logo_bountifulFoods.webp"  alt=" bountifulFood logo"/>
+    <div class="logo">
+      <img src="images/logo_bountifulFoods.webp" alt=" bountifulFood logo" />
+    </div>
+    <div class="headerSloganWrapper">
+    </div>
+    <nav>
+      <div class="social">
+        <a href="https://www.facebook.com/"><img src="images/square-facebook.svg"
+            alt="facebook social media link" /></a>
+        <a href="https://www.twitter.com"><img src="images/square-twitter.svg" alt="twitter social link" /></a>
+        <a href="https://www.linkedin.com"><img src="images/linkedin.svg" alt="linkedin social link" /></a>
       </div>
-      <div class= "headerSloganWrapper">
-      </div>
-      <nav>
-        <div class="social">
-          <a href="https://www.facebook.com/"><img src="images/square-facebook.svg" alt="facebook social media link" /></a>
-          <a href="https://www.twitter.com"><img src="images/square-twitter.svg" alt="twitter social link" /></a>
-          <a href="https://www.linkedin.com"><img src="images/linkedin.svg" alt="linkedin social link" /></a>
-        </div>
-        <button id="hamburgerbttn"><span>&#9776;</span><span>X</span></button>
-        <ul id = "primaryNav" class = "open">
-          <li class = "active"><a href="index.html">Home</a></li>
-          <li><a href="aboutUs.html">AboutUs</a></li>
-          <li><a href="menu.html">Menu</a></li>
-          <li><a href="PlaceOrder.html">PlaceOrder</a></li>
-          <li><a href="contactUs.html">ContactUs</a></li>
-<!--          <li><a href="thankyou.html">Thank you</a></li>-->
+      <button id="hamburgerbttn"><span>&#9776;</span><span>X</span></button>
+      <ul id="primaryNav" class="open">
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="aboutUs.html">AboutUs</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="PlaceOrder.html">PlaceOrder</a></li>
+        <li><a href="contactUs.html">ContactUs</a></li>
+        <!--          <li><a href="thankyou.html">Thank you</a></li>-->
 
-        </ul>
+      </ul>
 
-      </nav>
-    </header>
+    </nav>
+  </header>
 
   <!-- CONTENT HERE -->
 
@@ -62,7 +64,7 @@
       <source srcset="images/bg.jpg" media="(max-width: 500px)">
       <source srcset="images/bg.jpg" media="(max-width: 200px)">
       <source srcset="images/bg.jpg" media="(max-width: 100px)">
-      <img src="images/bg.jpg" alt="heroSrcimage">
+      <img src="images/bg.jpg"loading="lazy" alt="heroSrcimage">
     </picture>
 
 
@@ -75,7 +77,7 @@
         <section class="hero-action">
           <h2>Welcome to Bountiful Foods</h2>
           <form action="aboutUs.html">
-            <img src="images/goody.webp">
+            <img src="images/goody.webp" loading="lazy">
             <button type="submit">AboutUs</button>
           </form>
         </section>
@@ -84,9 +86,18 @@
           <div class="text-center">
             <img src="images/Flag_of_San_Diego.png" alt="Flag" />
             <span class="tiny-text">&copy;</span>
-            <p class="event-info">
+            <p class="event-info">The area which is now San Diego County has been<br> inhabited for more than 12,000
+              years
+              by Kumeyaay San Diego County became part of the United States as
+              a result of the Treaty of Guadalupe Hidalgo in 1848, ending the Mexican/American War.
+              This treaty designated the new border as terminating at a point on the Pacific Ocean
+              coast which would result in the border passing one Spanish league south of the southernmost
+              portion of San Diego Bay, thus ensuring that the United States received all of this natural harbor.
+              San Diego County was one of the original counties of California, created at the
+              time of California statehood in 1850.
 
             </p>
+
             <a href="https://en.wikipedia.org/wiki/San_Diego_County,_California#History">more info</a>
           </div>
         </section>
@@ -104,17 +115,18 @@
           <p id="chill">message</p>
         </section>
         <section>
-          <h3 class="text-center"><a href="https://www.ghanabusinessnews.com/category/general-news/">News Release</a></h3>
+          <h3 class="text-center"><a href="https://www.ghanabusinessnews.com/category/general-news/">News Release</a>
+          </h3>
           <div class="section-news">
             <div class="news-title">
               <p>
                 <br> NEWS FLASH !!!!<br> </p>
-            <p>We have some wonderful product coming your way soon.
-            </p>
-            <h3>Juice is a drink made from the extraction or pressing of the
-               natural liquid contained in fruit and vegetables. 
-               It can also refer to liquids that are flavored with concentrate or other biological food sources, 
-               such as meat or seafood, such as clam juice.
+              <p>We have some wonderful product coming your way soon.
+              </p>
+              <h3>Juice is a drink made from the extraction or pressing of the
+                natural liquid contained in fruit and vegetables.
+                It can also refer to liquids that are flavored with concentrate or other biological food sources,
+                such as meat or seafood, such as clam juice.
               </h3>
               <a href="https://www.ghanabusinessnews.com/category/general-news/"></a>
 
@@ -125,16 +137,26 @@
         </section>
 
         <section id="spotlight1" class="text-center spotlight">
+          <div class="weather__dailyforcast">
+            <div class=" weatherbox1">
+              <h3 id="day_one">tues</h3>
+              <span><img src="#" id="icon_day_one" alt="icon" width="100" height="100"><span
+                  id="temp_day_one"></span></span>
+            </div>
+            <div class="weatherbox2">
+              <h3 id="day_two">Wednesday</h3>
+              <span><img src="#" id="icon_day_two" alt="icon" width="100" height="100"><span
+                  id="temp_day_two"></span></span>
+            </div>
+            <div class="weatherbox3">
+              <h3 id="day_three">Thursday</h3>
+              <span><img src="#" id="icon_day_three" alt="icon" width="100" height="100"><span
+                  id="temp_day_three"></span></span>
+            </div>
+          </div>
           <h2></h2>
-          <img src="images/san_diego.jpg" alt="Veiw of San_Diego">
           <p>
-            <a href="https://en.wikipedia.org/wiki/San_Diego_County,_California#/map/0">MAP</a>
-          </p>
-        </section>
-        <section id="spotlight2" class="text-center spotlight">
-          <h2></h2>
-          <p>
-            <img src="images/nice.jpg">
+            <img src="images/nice.jpg"loading="lazy">
             <a href="https://food.ndtv.com/festivals">event-info</a>
           </p>
         </section>
@@ -143,7 +165,7 @@
           <div>
             <form action="join.html">
               <h4>
-                <img src="images/friuts2.webp">
+                <img src="images/friuts2.webp"loading="lazy">
                 <a href="placeOrder.html">placeOrder</a>
               </h4>
             </form>
@@ -155,7 +177,7 @@
         <h2>KEEPING OUR BODIES HEALTHY</h2>
       </section>
       <section class="goldspotlight">
-              We are good in what we do. Come join us in creating a healthy family......
+        We are good in what we do. Come join us in creating a healthy family......
       </section>
     </div>
   </main>
@@ -163,15 +185,14 @@
   <!-- FOOTER HERE -->
   <footer>
     <div class="foot-info-box">
-<!--    <div class="date">current date</div>-->
+      <!--    <div class="date">current date</div>-->
       &copy; <span id="current_year">2022</span> &bull; Bonuntiful Foods| Sandra Adeleye
       | WDD 230 Project
+      <span id="lastmod">last modified</span>
     </div>
-    <script src="js/chamber_script.js"></script>
+    <script src="js/date.js"></script>
 
   </footer>
 </body>
 
 </html>
-
-

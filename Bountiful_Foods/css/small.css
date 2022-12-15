@@ -176,57 +176,6 @@ body > main:nth-child(2) > section.mainSection:nth-child(1) {
     padding: 0px;
 }
 
-/*.announcement-banner {*/
-/*min-height: 4em;*/
-/*background-color: var(--primary-color);*/
-
-/*text-align: center;*/
-/*display: none;*/
-/*align-items: center; !* Vertical center alignment *!*/
-/*justify-content: center; !* Horizontal center alignment *!*/
-/*font-size: 0.4em;*/
-/*}*/
-
-/*.weather-warning-banner {*/
-/*    padding-top: 0.1em;*/
-/*    min-height: 1.5em;*/
-/*    background-color: var(--section-background-color);*/
-
-/*    text-align: center;*/
-/*    align-items: center; !* Vertical center alignment *!*/
-/*    justify-content: center; !* Horizontal center alignment *!*/
-/*    font-size: 1em;*/
-/*    color: var(--secondary-font-color);*/
-/*    font-weight: 200;*/
-/*    }*/
-
-
-/*.header-content {*/
-/*    padding: .8rem 2%;*/
-/*  */
-/*    background:  var(--section-background-color);*/
-/*    display: grid;*/
-/*    grid-template-columns: 100px auto;*/
-/*}*/
-/*.header-content div {*/
-/*    margin-left:10px;*/
-/*}*/
-
-/*.header-content h2 {margin: 0; font-weight: normal;*/
-/*     padding-top:18px;*/
-/*color: var(--secondary-font-color);*/
-/*}*/
-
-
-/*.date {*/
-/*    color: var(--secondary-font-color);*/
-/*    grid-column: span 2;*/
-/*    text-align: center;*/
-/*    margin-top: 0.4em;*/
-/*    */
-/*}*/
-
-
 
 
 /*----------- MAIN --------------*/
@@ -609,6 +558,40 @@ text-align: left;
 margin-left: 2em;
 }
 
+main div.weatherwrapper{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding:10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+   
+  
+  }
+  
+  h2.summaryunderline{
+     text-align: center;
+   }
+  div.weather__dailyforcast{
+    display: flex;
+    justify-content: center;
+    background-color: #e9d8a6;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    
+  }
+  div.weatherbox1,div.weatherbox2,div.weatherbox3{
+    
+    
+    text-align: center;
+    padding: 10px;
+  }
+  
+  div.weatherbox1 h6,img{
+    align-items: center;
+    justify-items: center;
+    
+  }
 
 .text-center a {
     color:var(--secondary-font-color);
@@ -824,7 +807,21 @@ font-weight: 500;
 text-transform: capitalize;
 }
 
-
+.forecast, .forecast1, .forecast2, .forecast3 {
+    border: 1px solid #999;
+    padding: 5px;
+    margin: 1rem;
+  }
+  
+  .forecast1 {
+    padding: 1rem;
+    margin: .5rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+  
+  }
+  
 .forecast-box{
     text-align: center;
     background: none;
